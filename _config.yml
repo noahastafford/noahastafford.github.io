@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 title                    : "Noah A. Stafford"
-title_separator          : "&#124"
+title_separator          : "&#124;"
 name                     : &name "Noah A. Stafford"
 description              : &description "Guitarist<br>Chess Player"
 url                      : https://noahastafford.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
