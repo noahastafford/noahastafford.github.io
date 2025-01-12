@@ -16,11 +16,11 @@ $mfp-z-index-base:                    1040;                       // Base z-inde
 // controls
 $mfp-include-arrows:                  true;                       // Include styles for nav arrows
 $mfp-controls-opacity:                1;                          // Opacity of controls
-$mfp-controls-color:                  #fff;                     // Color of controls
-$mfp-controls-border-color:           #fff;                     // Border color of controls
-$mfp-inner-close-icon-color:          #fff;                     // Color of close button when inside
+$mfp-controls-color:                  #fafafa;                     // Color of controls
+$mfp-controls-border-color:           #fafafa;                     // Border color of controls
+$mfp-inner-close-icon-color:          #fafafa;                     // Color of close button when inside
 $mfp-controls-text-color:             #ccc;                       // Color of preloader and "1 of X" indicator
-$mfp-controls-text-color-hover:       #fff;                     // Hover color of preloader and "1 of X" indicator
+$mfp-controls-text-color-hover:       #fafafa;                     // Hover color of preloader and "1 of X" indicator
 $mfp-IE7support:                      true;                       // Very basic IE7 support
 
 // Iframe-type options
