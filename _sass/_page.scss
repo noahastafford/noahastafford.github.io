@@ -79,7 +79,7 @@
       text-decoration: underline;
 
       img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
+        box-shadow: 0 0 10px rgba(#202020, 0.25);
       }
     }
   }
@@ -143,7 +143,7 @@
     .page__lead,
     .btn {
       color: #fafafa;
-      text-shadow: 1px 1px 4px rgba(#000, 0.5);
+      text-shadow: 1px 1px 4px rgba(#202020, 0.5);
     }
 
     .page__lead {
@@ -175,7 +175,7 @@
   color: #fafafa;
   font-family: $caption-font-family;
   font-size: $type-size-7;
-  background: #000;
+  background: #202020;
   text-align: right;
   z-index: 5;
   opacity: 0.5;

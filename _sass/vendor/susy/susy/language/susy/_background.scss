@@ -343,7 +343,7 @@ $susy-overlay-grid-head-exists: false;
       and type-of($base-line-height) == 'number'
       and not unitless($base-line-height) {
       $_color: variable-exists('grid-background-baseline-color');
-      $_color: if($_color, $grid-background-baseline-color, #000);
+      $_color: if($_color, $grid-background-baseline-color, #202020);
 
       $_image: map-get($_return, image);
       $_size: map-get($_return, size);

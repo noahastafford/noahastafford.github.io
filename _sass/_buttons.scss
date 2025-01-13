@@ -23,7 +23,7 @@
   cursor: pointer;
 
   &:hover {
-    background-color: mix(white, #000, 20%);
+    background-color: mix(white, #202020, 20%);
   }
 
   .icon {
@@ -71,7 +71,7 @@
     background-color: $info-color;
 
     &:hover {
-      background-color: mix(#000, $info-color, 20%);
+      background-color: mix(#202020, $info-color, 20%);
     }
   }
 
@@ -81,7 +81,7 @@
     background-color: $warning-color;
 
     &:hover {
-      background-color: mix(#000, $warning-color, 20%);
+      background-color: mix(#202020, $warning-color, 20%);
     }
   }
 
@@ -91,7 +91,7 @@
     background-color: $success-color;
 
     &:hover {
-      background-color: mix(#000, $success-color, 20%);
+      background-color: mix(#202020, $success-color, 20%);
     }
   }
 
@@ -101,7 +101,7 @@
     background-color: $danger-color;
 
     &:hover {
-      background-color: mix(#000, $danger-color, 20%);
+      background-color: mix(#202020, $danger-color, 20%);
     }
   }
 
@@ -128,7 +128,7 @@
       background-color: $color;
 
       &:hover {
-        background-color: mix(#000, $color, 20%);
+        background-color: mix(#202020, $color, 20%);
       }
     }
   }

@@ -56,8 +56,8 @@ $sidebar-link-max-width     : 250px;
    ========================================================================== */
 
 $gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
+$dark-gray                  : mix(#202020, $gray, 40%);
+$darker-gray                : mix(#202020, $gray, 60%);
 $light-gray                 : mix(#fafafa, $gray, 50%);
 $lighter-gray               : mix(#fafafa, $gray, 90%);
 
@@ -103,10 +103,10 @@ $xing-color                 : #006567;
 
 /* links */
 $link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
+$link-color-hover           : mix(#202020, $link-color, 25%);
 $link-color-visited         : mix(#fafafa, $link-color, 25%);
 $masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$masthead-link-color-hover  : mix(#202020, $primary-color, 25%);
 
 
 /*
