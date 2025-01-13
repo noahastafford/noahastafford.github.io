@@ -269,7 +269,7 @@
 
       &:hover {
         color: $primary-color;
-        background: $background-color;
+        background: mix(black, #202020, 20%);
       }
     }
 
