@@ -25,12 +25,12 @@ body { margin: 0; }
 /* Selected elements */
 
 ::-moz-selection {
-  color: #fafafa;
+  color: inherit;
   background: #ff00ff50;
 }
 
 ::selection {
-  color: #fafafa;
+  color: inherit;
   background: #ff00ff50;
 }
 
