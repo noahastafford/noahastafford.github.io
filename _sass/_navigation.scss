@@ -269,7 +269,7 @@
 
       &:hover {
         color: $primary-color;
-        background: mix(#fafafa, $background-color, 20%);
+        background: $background-color;
       }
     }
 
