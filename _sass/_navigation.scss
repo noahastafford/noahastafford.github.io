@@ -234,7 +234,7 @@
         left: 0;
         bottom: 0;
         height: 4px;
-        background: $background-color;
+        background: $primary-color;
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
@@ -259,7 +259,7 @@
     padding: 5px;
     border: 1px solid $background-color;
     border-radius: $border-radius;
-    background: $background-color;
+    background: mix(white, #202020, 20%);
     box-shadow: 0 0 10px rgba(#202020, 0.25);
 
     a {
@@ -268,7 +268,7 @@
       font-size: $type-size-5;
 
       &:hover {
-        color: $masthead-link-color-hover;
+        color: $primary-color;
         background: mix(#fafafa, $background-color, 20%);
       }
     }
@@ -281,7 +281,7 @@
       width: 0;
       border-style: solid;
       border-width: 0 10px 10px;
-      border-color: $background-color transparent;
+      border-color: mix(white, #202020, 20%) transparent;
       display: block;
       z-index: 0;
     }
@@ -294,7 +294,7 @@
       width: 0;
       border-style: solid;
       border-width: 0 10px 10px;
-      border-color: $background-color transparent;
+      border-color: mix(white, #202020, 20%) transparent;
       display: block;
       z-index: 1;
     }
