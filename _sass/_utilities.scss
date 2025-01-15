@@ -200,6 +200,10 @@ body:hover .visually-hidden button {
     color: #202020;
   }
 
+  .fa-phone {
+    color: $text-color;
+  }
+
   .fa-bluesky,
   .fa-bluesky-square {
     color: $bluesky-color;
@@ -239,10 +243,6 @@ body:hover .visually-hidden button {
   }
 
   .fa-instagram {
-    color: $text-color;
-  }
-
-  .fa-phone {
     color: $text-color;
   }
 
