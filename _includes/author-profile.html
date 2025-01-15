@@ -28,6 +28,9 @@
         <li><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
       {% endif %}
       {% if author.phone %}
+      {% if author.location %}
+        <li><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
+      {% endif %}
         <li><i class="fa-solid fa-phone icon-pad-right" aria-hidden="true"></i>{{ author.phone }}</li>
       {% endif %}
       {% if author.employer %}
