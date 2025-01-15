@@ -177,7 +177,7 @@ body:hover .visually-hidden button {
    ========================================================================== */
 
 .icon {
-  display: flex;
+  display: inline-block;
   fill: currentColor;
   width: 1em;
   height: 1.1em;
@@ -243,7 +243,7 @@ body:hover .visually-hidden button {
   }
 
   .fa-phone {
-    color: #fafafa;
+    color: $text-color;
   }
 
   .fa-kaggle,
