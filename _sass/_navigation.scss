@@ -276,12 +276,12 @@
     &:before {
       content: "";
       position: absolute;
-      top: -11px;
-      right: 10px;
+      top: -10.25px;
+      right: 10%;
       width: 0;
       border-style: solid;
       border-width: 0 10px 10px;
-      border-color: mix(white, #202020, 20%) transparent;
+      border-color: #babec1;
       display: block;
       z-index: 0;
     }
@@ -289,8 +289,8 @@
     &:after {
       content: "";
       position: absolute;
-      top: -10px;
-      right: 10px;
+      top: -9px;
+      right: 10%;
       width: 0;
       border-style: solid;
       border-width: 0 10px 10px;
