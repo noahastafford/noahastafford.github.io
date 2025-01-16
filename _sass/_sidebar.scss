@@ -188,6 +188,7 @@
   right: 0;
   margin-top: 15px;
   padding: 10px;
+  padding-bottom: 0px;
   list-style-type: none;
   border: 1px solid $border-color;
   border-radius: $border-radius;
@@ -242,12 +243,14 @@
 
   li {
     display: flex;
+    align-items: baseline;
     flex-wrap: nowrap;
     color: inherit;
   }
 
   a {
-    display: inline-block;
+    display: flex;
+    align-items: baseline;
     /* margin-bottom: 5px; */
     /* padding-right: 5px; */
     /* padding-top: 2px; */
