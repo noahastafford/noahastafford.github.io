@@ -241,7 +241,8 @@
   }
 
   li {
-    display: inline-block;
+    display: flex;
+    flex-wrap: nowrap;
     color: inherit;
   }
 
