@@ -32,7 +32,7 @@
   }
 
   @include breakpoint($x-large) {
-    /* max-width: $sidebar-link-max-width; */
+    max-width: $sidebar-link-max-width;
     padding-right: 0;
   }
 
@@ -62,13 +62,13 @@
   @include breakpoint($large) {
     position: relative;
     float: right;
-    /* width: $right-sidebar-width-narrow; */
+    width: $right-sidebar-width-narrow;
     margin-left: span(0.5 of 12);
     z-index: 10;
   }
 
   @include breakpoint($x-large) {
-    /* width: $right-sidebar-width; */
+    width: $right-sidebar-width;
   }
 }
 
@@ -183,7 +183,7 @@
 
 .author__urls {
   display: none;
-  width: auto;
+  width: 500px;
   position: absolute;
   right: 0;
   margin-top: 15px;
