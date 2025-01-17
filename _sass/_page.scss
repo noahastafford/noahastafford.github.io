@@ -82,6 +82,9 @@
         box-shadow: 0 0 10px rgba(#202020, 0.25);
       }
     }
+    &:visited {
+      color: $link-color-visited
+    }
   }
 
   dt {
