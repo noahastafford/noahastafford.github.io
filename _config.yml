@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "Noah A. Stafford"
 title_separator          : "&#124;"
-name                     : &name "Noah A. Stafford"
+name                     : &name "Noah Stafford"
 description              : &description "Guitarist<br>Chess Player"
 url                      : https://noahastafford.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
