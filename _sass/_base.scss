@@ -2,10 +2,11 @@
    BASE ELEMENTS
    ========================================================================== */
 html {
+  {
   /* sticky footer fix */
   position: relative;
   min-height: 100%;
-
+  }
   {
     /* Firefox - Hides track and changes thumb color */
     scrollbar-color: hsla(0, 0%, 46%, 0.5) transparent;
