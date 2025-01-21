@@ -10,12 +10,12 @@ html {
 
 html {
   /* Firefox - Hides track and changes thumb color */
-  scrollbar-color: hsla(0, 0%, 46%, 0.5) transparent;
+  scrollbar-color: hsla(0, 0%, 50%, 0.5) hsla(0, 0%, 50%, 0.25);
 }
 
 /* Chrome - Hides track and width/height set for vertical/horizontal scrollbars */
 ::-webkit-scrollbar {
-  background-color: transparent;
+  background-color: hsla(0, 0%, 50%, 0.25);
   width: 7px;
   height: 7px;
 }
@@ -23,7 +23,7 @@ html {
 /* Chrome - Changes thumb color and rounds scrollbar edges, in Chrome any 
 scrollbar changes disables default styling and rounding so corners appear squared */
 ::-webkit-scrollbar-thumb {
-  background-color: hsla(0, 0%, 46%, 0.5);
+  background-color: hsla(0, 0%, 50%, 0.5);
   border-radius: 8px;
 }
 
